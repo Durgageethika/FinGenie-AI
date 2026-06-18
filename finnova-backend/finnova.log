@@ -1,0 +1,64 @@
+2026-06-18T12:30:25.013+05:30  INFO 24312 --- [main] c.f.f.FinnovaBackendApplication          : Starting FinnovaBackendApplication using Java 21.0.3 with PID 24312 (C:\Users\Lucky\Desktop\wipro capstone\finnova-backend\target\classes started by Lucky in C:\Users\Lucky\Desktop\wipro capstone\finnova-backend)
+2026-06-18T12:30:25.015+05:30  INFO 24312 --- [main] c.f.f.FinnovaBackendApplication          : No active profile set, falling back to 1 default profile: "default"
+2026-06-18T12:30:25.738+05:30  INFO 24312 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-18T12:30:25.802+05:30  INFO 24312 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 6 JPA repository interfaces.
+2026-06-18T12:30:26.350+05:30  INFO 24312 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2026-06-18T12:30:26.359+05:30  INFO 24312 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-18T12:30:26.360+05:30  INFO 24312 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2026-06-18T12:30:26.406+05:30  INFO 24312 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-18T12:30:26.406+05:30  INFO 24312 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1359 ms
+2026-06-18T12:30:26.581+05:30  INFO 24312 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-18T12:30:26.631+05:30  INFO 24312 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-06-18T12:30:26.657+05:30  INFO 24312 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-18T12:30:26.904+05:30  INFO 24312 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-18T12:30:26.922+05:30  INFO 24312 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-18T12:30:27.180+05:30  INFO 24312 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@592cb470
+2026-06-18T12:30:27.182+05:30  INFO 24312 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-18T12:30:27.875+05:30  INFO 24312 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-18T12:30:27.952+05:30  INFO 24312 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-18T12:30:28.794+05:30  WARN 24312 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-18T12:30:28.875+05:30  WARN 24312 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: f3b095cf-c144-4f12-9fae-5b633d0cee07
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-06-18T12:30:28.895+05:30  INFO 24312 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-06-18T12:30:30.361+05:30  INFO 24312 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path '/'
+2026-06-18T12:30:30.406+05:30  INFO 24312 --- [main] c.f.f.FinnovaBackendApplication          : Started FinnovaBackendApplication in 5.718 seconds (process running for 6.005)
+2026-06-18T12:31:38.367+05:30  INFO 24312 --- [http-nio-8085-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-18T12:31:38.367+05:30  INFO 24312 --- [http-nio-8085-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-18T12:31:38.370+05:30  INFO 24312 --- [http-nio-8085-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-06-18T12:31:38.419+05:30  INFO 24312 --- [http-nio-8085-exec-2] c.f.f.service.impl.CustomerServiceImpl   : Fetching All Customers
+2026-06-18T12:31:38.601+05:30  INFO 24312 --- [http-nio-8085-exec-3] c.f.f.service.impl.CustomerServiceImpl   : Fetching All Customers
+2026-06-18T12:31:39.691+05:30  INFO 24312 --- [http-nio-8085-exec-4] c.f.f.service.impl.CustomerServiceImpl   : Fetching All Customers
+2026-06-18T12:31:39.701+05:30  INFO 24312 --- [http-nio-8085-exec-4] c.f.f.service.impl.CustomerServiceImpl   : Fetching All Customers
+2026-06-18T12:32:15.812+05:30  INFO 24312 --- [http-nio-8085-exec-5] c.f.f.service.impl.CustomerServiceImpl   : Saving Customer: charan
+2026-06-18T12:32:21.337+05:30  INFO 24312 --- [http-nio-8085-exec-8] c.f.f.service.impl.CustomerServiceImpl   : Fetching All Customers
+2026-06-18T13:00:53.329+05:30  INFO 24312 --- [http-nio-8085-exec-10] c.f.f.service.impl.CustomerServiceImpl   : Fetching All Customers
+2026-06-18T13:00:53.342+05:30  INFO 24312 --- [http-nio-8085-exec-2] c.f.f.service.impl.CustomerServiceImpl   : Fetching All Customers
+2026-06-18T13:00:55.876+05:30  INFO 24312 --- [http-nio-8085-exec-3] c.f.f.service.impl.CustomerServiceImpl   : Fetching All Customers
+2026-06-18T13:00:55.882+05:30  INFO 24312 --- [http-nio-8085-exec-1] c.f.f.service.impl.CustomerServiceImpl   : Fetching All Customers
+2026-06-18T13:00:57.653+05:30  INFO 24312 --- [http-nio-8085-exec-4] c.f.f.service.impl.CustomerServiceImpl   : Fetching All Customers
+2026-06-18T13:00:57.664+05:30  INFO 24312 --- [http-nio-8085-exec-6] c.f.f.service.impl.CustomerServiceImpl   : Fetching All Customers
+2026-06-18T13:01:16.828+05:30  INFO 24312 --- [http-nio-8085-exec-5] c.f.f.service.impl.CustomerServiceImpl   : Fetching All Customers
+2026-06-18T13:01:16.839+05:30  INFO 24312 --- [http-nio-8085-exec-8] c.f.f.service.impl.CustomerServiceImpl   : Fetching All Customers
+2026-06-18T13:01:29.586+05:30  INFO 24312 --- [http-nio-8085-exec-7] c.f.f.service.impl.CustomerServiceImpl   : Fetching All Customers
+2026-06-18T13:01:29.601+05:30  INFO 24312 --- [http-nio-8085-exec-9] c.f.f.service.impl.CustomerServiceImpl   : Fetching All Customers
+2026-06-18T13:10:09.010+05:30  INFO 24312 --- [http-nio-8085-exec-2] c.f.f.service.impl.CustomerServiceImpl   : Fetching All Customers
+2026-06-18T13:10:09.021+05:30  INFO 24312 --- [http-nio-8085-exec-4] c.f.f.service.impl.CustomerServiceImpl   : Fetching All Customers
+2026-06-18T14:10:12.739+05:30  INFO 24312 --- [http-nio-8085-exec-5] c.f.f.service.impl.CustomerServiceImpl   : Fetching All Customers
+2026-06-18T14:10:12.741+05:30  INFO 24312 --- [http-nio-8085-exec-8] c.f.f.service.impl.CustomerServiceImpl   : Fetching All Customers
+2026-06-18T14:10:35.861+05:30  WARN 24312 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=44m37s675ms561µs800ns).
+2026-06-18T14:10:41.749+05:30  INFO 24312 --- [http-nio-8085-exec-10] c.f.f.service.impl.CustomerServiceImpl   : Fetching All Customers
+2026-06-18T14:10:41.760+05:30  INFO 24312 --- [http-nio-8085-exec-3] c.f.f.service.impl.CustomerServiceImpl   : Fetching All Customers
+2026-06-18T14:30:34.385+05:30  WARN 24312 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s226ms153µs100ns).
+2026-06-18T15:10:18.725+05:30  INFO 24312 --- [http-nio-8085-exec-7] c.f.f.service.impl.CustomerServiceImpl   : Fetching All Customers
+2026-06-18T15:10:30.248+05:30  INFO 24312 --- [http-nio-8085-exec-3] c.f.f.service.impl.CustomerServiceImpl   : Fetching All Customers
+2026-06-18T15:10:30.290+05:30  INFO 24312 --- [http-nio-8085-exec-2] c.f.f.service.impl.CustomerServiceImpl   : Fetching All Customers
+2026-06-18T15:11:59.376+05:30  INFO 24312 --- [http-nio-8085-exec-7] c.f.f.service.impl.CustomerServiceImpl   : Fetching All Customers
+2026-06-18T15:11:59.392+05:30  INFO 24312 --- [http-nio-8085-exec-8] c.f.f.service.impl.CustomerServiceImpl   : Fetching All Customers
+2026-06-18T15:12:02.850+05:30  INFO 24312 --- [http-nio-8085-exec-7] c.f.f.service.impl.CustomerServiceImpl   : Fetching All Customers
+2026-06-18T15:12:02.870+05:30  INFO 24312 --- [http-nio-8085-exec-3] c.f.f.service.impl.CustomerServiceImpl   : Fetching All Customers
+2026-06-18T15:12:05.241+05:30  INFO 24312 --- [http-nio-8085-exec-10] c.f.f.service.impl.CustomerServiceImpl   : Fetching All Customers
+2026-06-18T15:12:05.254+05:30  INFO 24312 --- [http-nio-8085-exec-1] c.f.f.service.impl.CustomerServiceImpl   : Fetching All Customers
